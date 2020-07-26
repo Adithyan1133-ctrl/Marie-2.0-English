@@ -24,12 +24,12 @@ Im a group manager bot maintained by  @TheUnusuaIPsychopath.
 
 Support Our Channels @BrotherwoodFilmz & @SeriesLand4U.
 
-This Bot was Exclusively made for [SpanishFilms](t.me/Spanish_Filmz) ,
+This Bot was Exclusively made for @SpanishFilms ,
 So Non admins Stay back..
 
 For more commands click /help...
 
-**Only Works On [SpanishFilms](t.me/Spanish_Filmz).**
+**Only Works On @SpanishFilms.**
 
 """
 
