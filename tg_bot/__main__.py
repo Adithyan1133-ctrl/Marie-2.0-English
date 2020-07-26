@@ -29,7 +29,7 @@ So Non admins Stay back..
 
 For more commands click /help...
 
-**Only Works On @Spanish_Fims.**
+**Only Works On @Spanish_Films.**
 
 """
 
