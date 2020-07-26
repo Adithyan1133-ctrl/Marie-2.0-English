@@ -20,16 +20,16 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Hello {}, my name is {}! if you have any questions about how to use me please give me /help... 
 
-Im a group manager bot maintained by  [this person](tg://user?id={}).
+Im a group manager bot maintained by  @TheUnusuaIPsychopath.
 
 Support Our Channels @BrotherwoodFilmz & @SeriesLand4U.
 
-This Bot was Exclusively made for @Spanish_Films ,
+This Bot was Exclusively made for [SpanishFilms](t.me/Spanish_Filmz) ,
 So Non admins Stay back..
 
 For more commands click /help...
 
-**Only Works On @Spanish_Films.**
+**Only Works On [SpanishFilms](t.me/Spanish_Filmz).**
 
 """
 
