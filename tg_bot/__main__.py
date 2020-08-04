@@ -17,8 +17,6 @@ from tg_bot.modules import ALL_MODULES
 from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
-AUTH_USERS=[557639247]
-
 PM_START_TEXT = """
 Hello {}, my name is {}! if you have any questions about how to use me please give me /help... 
 
@@ -146,8 +144,8 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN)
-    elif update.message.chat_id not in AUTH_USERS:
-        update.effective_message.reply_text("No One Gonna Help You🤣")
+    else:
+        update.effective_message.reply_text("waked up😏😏😏")
 
 
 # for test purposes
@@ -214,9 +212,6 @@ def help_button(bot: Bot, update: Update):
             query.message.reply_text(text=HELP_STRINGS,
                                      parse_mode=ParseMode.MARKDOWN,
                                      reply_markup=InlineKeyboardMarkup(paginate_modules(0, HELPABLE, "help")))
-        elif update.message.chat_id not in AUTH_USERS:
-            update.effective_message.reply_text("Repeat:-No One Gonna Help You Noob😇")
-
 
         # ensure no spinny white circle
         bot.answer_callback_query(query.id)
