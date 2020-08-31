@@ -143,7 +143,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             first_name = update.effective_user.first_name
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Support Group", url="malayaliinfos"), InlineKeyboardButton(text="Support Bot", url="t.me/malayaliLinksbot)]]), 
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Support Group", url="t.me/malayaliinfos"), InlineKeyboardButton(text="Support Bot", url="t.me/malayaliLinksbot")]]), 
                 parse_mode=ParseMode.MARKDOWN)
     else:
         update.effective_message.reply_text("waked up😏😏😏")
